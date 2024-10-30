@@ -1,5 +1,5 @@
 "use client";
-//rename test
+//rename test, v2
 import React from 'react';
 
 import { Heading, Text, Flex, Button, Grid, Icon, InlineCode, Logo, Background, LetterFx, Arrow } from '@/once-ui/components';
