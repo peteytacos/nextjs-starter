@@ -1,5 +1,5 @@
 "use client";
-
+//rename test
 import React from 'react';
 
 import { Heading, Text, Flex, Button, Grid, Icon, InlineCode, Logo, Background, LetterFx, Arrow } from '@/once-ui/components';
@@ -43,7 +43,7 @@ export default function Home() {
 						<Flex
 							position="relative"
 							flex={2} paddingTop="56" paddingX="xl">
-							<Logo size="xl" icon={false} style={{zIndex: '1'}}/>
+							<Logo size="xl" icon={false} style={{ zIndex: '1' }} />
 						</Flex>
 						<Flex
 							position="relative"
@@ -54,7 +54,8 @@ export default function Home() {
 								style={{
 									width: 'fit-content',
 									padding: 'var(--static-space-8) var(--static-space-16)',
-									backdropFilter: 'blur(var(--static-space-1))'}}>
+									backdropFilter: 'blur(var(--static-space-1))'
+								}}>
 								Start by editing <span className="brand-on-background-medium">app/page.tsx</span>
 							</InlineCode>
 							<Heading
@@ -73,7 +74,7 @@ export default function Home() {
 								variant="secondary">
 								<Flex alignItems="center">
 									Read docs
-									<Arrow trigger="#readDocs"/>
+									<Arrow trigger="#readDocs" />
 								</Flex>
 							</Button>
 						</Flex>
